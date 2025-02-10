@@ -1,0 +1,64 @@
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.login{
+    background-image: url('../img/bg-lg.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+form{
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    color: #333;
+    padding: 1.5rem;
+    background-color: #fff;
+    width: 500px
+}
+.input img{
+    position: absolute;
+    left: 93%;
+    top: 25%;
+}
+.form-text a{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.number input::placeholder{
+    color:#ccc;
+}
+.form-button {
+    display: flex;
+    justify-content: center;
+}
+.form-button .card-btn{
+    color: #ccc;
+    background-color: #f4f4f4;
+    border-color:#f4f4f4 ;
+    
+}
+/********************************************************/
+.font{
+    font-family: "Cairo";
+    font-weight: 200;
+}
+.content-text .text-light{
+    font-size: 19px;
+}
+.form-ar .card-btn{
+    padding: 7px 55px;
+}
+.input-ar img{
+    position: absolute;
+    right: 93%;
+    top: 25%;
+}
+.number .txt::placeholder{
+    text-align: end;
+}
